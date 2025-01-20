@@ -19,12 +19,14 @@ In Tcl, curly braces `{}` serve primarily as *grouping delimiters* that turn eve
 - Multi-Line Grouping
 - Protecting expr Expressions
 
-| Tcl functions            | Description                                |
-| ------------------------ | ------------------------------------------ |
-| `puts`                   | Print to the std output                    |
-| `set <var_name> <value>` | Create simple variables                    |
-| `clock seconds`          | Returns the time in seconds since the call |
-| `expr`                   | Evaluate an expression command                                            |
+| Tcl functions            | Description                                                                         |
+| ------------------------ | ----------------------------------------------------------------------------------- |
+| `puts`                   | Print to the std output                                                             |
+| `set <var_name> <value>` | Create simple variables                                                             |
+| `clock seconds`          | Returns the time in seconds since the call                                          |
+| `expr`                   | Evaluate an expression command                                                      |
+| `source`                 | Run a Tcl script inside the console, use `-notrace` to suppress the command echoing |
+|                          |                                                                                     |
 
 
 ## References
